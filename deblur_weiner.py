@@ -182,7 +182,7 @@ def do_deblurring_core(eng, diskSize,inp_fname,PSF):
     #print "# of countors"
     #crop.findCountours_num(fname)
     #print "Text Found?"
-    _,cannyedgesmean = crop.findText(fname,diskSize)
+    _,cannyedgesmean = findText(fname,diskSize)
 
     #cv2.waitKey(0)
     #figure(n); imshow(deconvlucy(I, PSF, 100));
